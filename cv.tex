@@ -90,6 +90,11 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
+% Make in-body links (\href) italic so they stand out from surrounding text.
+% Scoped to content sections only, so header links (github/linkedin/twitter) are unaffected.
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{\textit{#2}}}
+
 \input{resume/summary.tex}
 \input{resume/experience.tex}
 \input{resume/education.tex}
