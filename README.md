@@ -4,7 +4,7 @@ Artur Ptaszek's CV, written in LaTeX and built on the [Awesome CV](https://githu
 
 ## Building
 
-Requires a TeX distribution with XeLaTeX (e.g. MacTeX or TeX Live). Fonts are loaded from `fonts/`, so nothing needs to be installed system-wide.
+Requires a TeX distribution with XeLaTeX (e.g. MacTeX or TeX Live). The fonts in `fonts/` must be installed on the system, since they're loaded by name.
 
 ```sh
 xelatex cv.tex
