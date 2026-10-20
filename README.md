@@ -2,6 +2,8 @@
 
 Artur Ptaszek's CV, written in LaTeX and built on the [Awesome CV](https://github.com/posquit0/Awesome-CV) template.
 
+**[Download the latest CV (PDF)](https://github.com/RiddleMan/cv/releases/latest/download/cv.pdf)**
+
 ## Building
 
 Requires a TeX distribution with XeLaTeX (e.g. MacTeX or TeX Live). Fonts are loaded from `fonts/`, so nothing needs to be installed system-wide.
